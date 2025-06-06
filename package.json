@@ -1,0 +1,15 @@
+{
+  "name": "@luuk/designsystem",
+  "version": "0.0.0",
+  "keywords": [],
+  "author": "Luuk Brauckmann",
+  "license": "ISC",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  }
+}
