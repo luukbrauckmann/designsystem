@@ -1,15 +1,14 @@
 {
   "name": "@luuk/designsystem",
-  "version": "0.0.0",
-  "keywords": [],
-  "author": "Luuk Brauckmann",
-  "license": "ISC",
-  "description": "",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "packageManager": "npm@8.5.0",
+  "scripts": {
+    "dev": "turbo dev"
+  },
   "devDependencies": {
-    "turbo": "^2.5.4"
+    "turbo": "^2.5.1"
   }
 }
