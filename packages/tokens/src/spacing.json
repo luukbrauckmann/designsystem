@@ -1,0 +1,13 @@
+{
+  "spacing": {
+    "$type": "dimension",
+    "none": { "$value": "0" },
+    "xxs": { "$value": "5px" },
+    "xs": { "$value": "7px" },
+    "sm": { "$value": "12px" },
+    "md": { "$value": "19px" },
+    "lg": { "$value": "31px" },
+    "xl": { "$value": "51px" },
+    "xxl": { "$value": "82px" }
+  }
+}

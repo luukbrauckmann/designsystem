@@ -1,0 +1,27 @@
+{
+ "color": {
+   "$type": "color",
+   "primary": {
+     "$value": "#0070B6"
+   },
+   "secondary": {
+     "$value": "#E6EAF5"
+   },
+   "background": {
+     "canvas": {
+       "$value": "#001523"
+     },
+     "surface": {
+       "$value": "#1B263B"
+     },
+     "elevated": {
+       "$value": "#415A77"
+     }
+   },
+   "text": {
+     "primary": {
+       "$value": "#FFFFFF"
+     }
+   }
+ }
+}

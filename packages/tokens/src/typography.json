@@ -1,0 +1,26 @@
+{
+  "typography": {
+    "font-family": {
+      "$type": "fontFamily",
+      "title": { "$value": "Dash system-ui" },
+      "body": { "$value": "Nunito system-ui" }
+    },
+    "font-size": {
+      "$type": "dimension",
+      "title": {
+        "xs": { "$value": "18px" },
+        "sm": { "$value": "21px" },
+        "md": { "$value": "24px" },
+        "lg": { "$value": "27px" },
+        "xl": { "$value": "30px" }
+      },
+      "body": {
+        "xs": { "$value": "12px" },
+        "sm": { "$value": "14px" },
+        "md": { "$value": "16px" },
+        "lg": { "$value": "18px" },
+        "xl": { "$value": "20px" }
+      }
+    }
+  }
+}
