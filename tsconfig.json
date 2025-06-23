@@ -11,5 +11,6 @@
     { "path": "./packages/styles" },
     { "path": "./packages/tokens" }
   ],
-  "files": ["eslint.config.ts"]
+  "files": [],
+  "include": ["**/eslint.config.ts"]
 }
