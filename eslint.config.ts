@@ -13,7 +13,6 @@ export const config = ts.config([
       parserOptions: {
         projectService: true,
         tsconfigRootDir: dirname(fileURLToPath(import.meta.url)),
-        allowDefaultProject: true,
       },
     },
   },
