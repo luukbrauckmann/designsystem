@@ -1,6 +1,6 @@
 {
   "name": "@luuk/tokens",
-  "version": "0.0.0-dev",
+  "version": "0.0.0",
   "scripts": {
     "build": "tsc"
   },

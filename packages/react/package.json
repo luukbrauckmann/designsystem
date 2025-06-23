@@ -1,6 +1,6 @@
 {
   "name": "@luukbrauckmann/react",
-  "version": "0.0.0-dev",
+  "version": "0.0.0",
   "scripts": {
     "build": "tsc"
   },
