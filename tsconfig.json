@@ -11,6 +11,5 @@
     { "path": "./packages/styles" },
     { "path": "./packages/tokens" }
   ],
-  "files": [],
-  "include": ["src/**/*"]
+  "files": []
 }
