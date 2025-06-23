@@ -9,7 +9,7 @@ export const config = ts.config([
   {
     languageOptions: {
       parserOptions: {
-        project: true,
+        projectService: true,
         tsconfigRootDir: import.meta.dirname
       },
     },
