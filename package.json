@@ -1,0 +1,16 @@
+{
+  "name": "@luukbrauckmann/designsystem",
+  "description": "Personal design system and component library",
+  "version": "0.0.0-dev",
+  "packageManager": "npm@8.5.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  }
+}

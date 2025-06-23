@@ -1,0 +1,10 @@
+{
+  "name": "@luuk/tokens",
+  "version": "0.0.0-dev",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
