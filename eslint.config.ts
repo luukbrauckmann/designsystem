@@ -15,6 +15,9 @@ export const config = ts.config([
         tsconfigRootDir: dirname(fileURLToPath(import.meta.url)),
       },
     },
+  },
+  {
+    ignores: ["eslint.config.ts"]
   }
 ]);
 
