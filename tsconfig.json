@@ -1,22 +1,15 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "target": "es2022",
-    "allowJs": true,
-    "resolveJsonModule": true,
-    "moduleDetection": "force",
-    "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "module": "NodeNext",
-    "outDir": "dist",
-    "sourceMap": true,
-    "declaration": true,
-    "composite": true,
-    "declarationMap": true,
-    "lib": ["es2022"]
-  }
+    "baseUrl": "."
+  },
+  "references": [
+    { "path": "./packages/astro" },
+    { "path": "./packages/fonts" },
+    { "path": "./packages/icons" },
+    { "path": "./packages/react" },
+    { "path": "./packages/styles" },
+    { "path": "./packages/tokens" }
+  ],
+  "files": []
 }
