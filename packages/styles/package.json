@@ -1,5 +1,5 @@
 {
-  "name": "@luuk/styles",
+  "name": "@luukbrauckmann/styles",
   "version": "0.0.0",
   "scripts": {
     "build": "tsc"
