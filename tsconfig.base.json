@@ -21,5 +21,6 @@
       "@luukbrauckmann/*": ["./packages/*/src"]
     }
   },
+  "include": ["eslint.config.ts", "**/eslint.config.ts"],
   "exclude": ["node_modules", "dist", "**/dist"]
 }
