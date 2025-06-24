@@ -1,4 +1,5 @@
 {
   "extends": "../../tsconfig.lib.json",
-  "references": []
+  "references": [],
+  "exclude": ["dist"]
 }
