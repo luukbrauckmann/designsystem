@@ -1,9 +1,4 @@
 import "jiti/register";
-import ts from "typescript-eslint";
-import { config as rootConfig } from "../../eslint.config";
-
-export const config = ts.config([
-  rootConfig
-]);
+import { config } from "../../eslint.config";
 
 export default config;
