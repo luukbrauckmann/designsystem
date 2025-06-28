@@ -1,3 +1,4 @@
+import type { HTMLAttributes } from "react";
 
 type Props = HTMLAttributes<HTMLButtonElement>;
 
