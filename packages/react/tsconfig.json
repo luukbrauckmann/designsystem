@@ -1,8 +1,11 @@
 {
   "extends": "../../tsconfig.lib.json",
   "compilerOptions": {
-    "outDir": "dist"
+    "rootDir": "src",
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "lib": ["es2022", "DOM", "DOM.Iterable"]
   },
-  "include": ["eslint.config.ts", "src"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*", "eslint.config.ts"],
+  "exclude": ["dist"]
 }

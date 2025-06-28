@@ -5,8 +5,5 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint ."
-  },
-  "devDependencies": {
-    "typescript": "^5.8.3"
   }
 }

@@ -1,8 +1,0 @@
-{
-  "extends": "../../tsconfig.lib.json",
-  "compilerOptions": {
-    "outDir": "dist"
-  },
-  "include": ["eslint.config.ts", "src"],
-  "exclude": ["node_modules", "dist"],
-}

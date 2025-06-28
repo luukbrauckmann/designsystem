@@ -1,16 +1,7 @@
 {
-  "extends": "./tsconfig.base.json",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "references": [
-    { "path": "./packages/astro" },
-    { "path": "./packages/fonts" },
-    { "path": "./packages/icons" },
-    { "path": "./packages/react" },
-    { "path": "./packages/styles" },
-    { "path": "./packages/tokens" }
-  ],
-  "files": [],
-  "include": ["eslint.config.ts", "**/eslint.config.ts"]
+ "files": [],
+ "references": [
+   { "path": "./packages/styles" },
+   { "path": "./packages/react" }
+ ]
 }
