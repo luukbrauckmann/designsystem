@@ -1,7 +1,9 @@
 {
- "files": [],
- "references": [
-   { "path": "./packages/styles" },
-   { "path": "./packages/react" }
- ]
+  "extends": "./tsconfig.base.json",
+  "files": [],
+  "references": [
+    { "path": "./packages/styles" },
+    { "path": "./packages/react" }
+  ],
+  "include": ["eslint.config.ts"]
 }

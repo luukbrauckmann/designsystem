@@ -1,21 +1,18 @@
 import "jiti/register";
-import ts from "typescript-eslint";
 import js from "@eslint/js";
+import ts from "typescript-eslint";
 
 export const config = ts.config([
   js.configs.recommended,
+  ts.configs.recommended,
   ts.configs.recommendedTypeChecked,
-  ts.configs.stylisticTypeChecked,
   {
     languageOptions: {
       parserOptions: {
-        projectService: true,
-        tsconfigRootDir: import.meta.dirname
+        project: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
-  },
-  {
-    ignores: ["dist"]
   }
 ]);
 
