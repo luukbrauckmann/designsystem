@@ -1,4 +1,9 @@
 {
   "extends": "../../tsconfig.lib.json",
-  "references": []
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+  "include": ["scripts/**/*", "src/**/*"],
+  "exclude": ["dist"]
 }

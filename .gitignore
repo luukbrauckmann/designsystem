@@ -1,6 +1,5 @@
 # Node.js dependencies
 node_modules/
-package-lock.json
 
 # Build output
 dist/
@@ -9,26 +8,11 @@ dist/
 # Turbo
 .turbo
 
-# Vite
-.vite/
-**/.vite/
-
 # TypeScript
 *.tsbuildinfo
-
-# Astro
-.astro/
-**/.astro/
 
 # Logs
 npm-debug.log*
 
 # MacOS
 .DS_Store
-
-# Editor-specifieke bestanden
-.vscode/
-.idea/
-*.swp
-
-*storybook.log
