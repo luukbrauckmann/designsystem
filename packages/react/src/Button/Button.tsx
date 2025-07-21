@@ -1,6 +1,8 @@
-import type { HTMLAttributes } from "react";
+import type { ComponentProps } from "react";
 
-type Props = HTMLAttributes<HTMLButtonElement>;
+import "@luukbrauckmann/styles/components/button.css";
+
+type Props = ComponentProps<"button">;
 
 export default function Button({ ...props }: Props) {
   return <button {...props} />;

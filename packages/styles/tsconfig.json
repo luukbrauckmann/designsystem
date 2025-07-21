@@ -4,6 +4,6 @@
     "rootDir": ".",
     "outDir": "dist"
   },
-  "include": ["src/**/*", "eslint.config.ts"],
+  "include": ["scripts/**/*", "src/**/*"],
   "exclude": ["dist"]
 }

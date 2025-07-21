@@ -4,6 +4,5 @@
   "references": [
     { "path": "./packages/styles" },
     { "path": "./packages/react" }
-  ],
-  "include": ["eslint.config.ts"]
+  ]
 }
