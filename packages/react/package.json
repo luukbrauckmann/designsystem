@@ -7,6 +7,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@leafygreen-ui/polymorphic": "^3.0.3",
     "@luukbrauckmann/styles": "*",
     "clsx": "^2.1.1",
     "react": "^19.1.0",

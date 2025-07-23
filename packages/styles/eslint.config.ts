@@ -1,11 +1,10 @@
 import "jiti/register";
+import { globalIgnores } from "eslint/config";
 import js from "@eslint/js";
 import ts from "typescript-eslint";
 
 export default ts.config([
-  {
-    ignores: ['dist/**', 'eslint.config.ts'],
-  },
+  globalIgnores(['dist/**']),
   js.configs.recommended,
   ts.configs.recommended,
   ts.configs.recommendedTypeChecked,
