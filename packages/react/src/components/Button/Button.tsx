@@ -1,22 +1,21 @@
-import { forwardRef } from "react";
-import { Polymorphic, usePolymorphic } from "@leafygreen-ui/polymorphic";
+import { forwardRef, type ComponentPropsWithRef } from "react";
 import { clsx } from "clsx";
 import { Icon } from "../Icon/Icon";
 
 import "@luukbrauckmann/styles/components/button.css";
 
-type Props = {
-  as?: "button" | "a";
+type Props<T extends "button"> = {
+  as?: "button";
   variant?: "primary" | "secondary" | "transparent" | "link";
-  icon?: string;
+  icon?: 'newspaper' | 'briefcase' | 'nl' | 'en' | 'xmark' | 'bars' | 'house' | 'user-secret' | 'square-arrow-up-right' | 'code-pull-request' | 'code-commit' | 'check' | 'envelope' | 'github' | 'arrow-right';
   iconOnly?: boolean;
   round?: boolean;
-};
+} & ComponentPropsWithRef<T>;
 
-export const Button = forwardRef(Polymorphic<Props>(
+export const Button = forwardRef<HTMLButtonElement, Props<"button">>(
   (
     {
-      as,
+      as: Component = "button",
       variant,
       icon,
       iconOnly,
@@ -27,8 +26,6 @@ export const Button = forwardRef(Polymorphic<Props>(
     },
     ref
   ) => {
-    const { Component } = usePolymorphic(as);
-
     return (
       <Component
         ref={ref}
@@ -48,4 +45,4 @@ export const Button = forwardRef(Polymorphic<Props>(
       </Component>
     );
   }
-));
+);

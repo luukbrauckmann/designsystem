@@ -1,0 +1,26 @@
+html,
+.docs-story {
+  background-color: #001523;
+  padding: 12px;
+  color: white;
+  color-scheme: dark;
+}
+
+.sb-show-main,
+.docs-story > div:first-child {
+  border: 1px solid #1b263b;
+}
+
+html:has(.sb-show-main.sb-main-centered) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sb-show-main.sb-main-centered {
+  min-height: initial;
+  flex: 1;
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+}

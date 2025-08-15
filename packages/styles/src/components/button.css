@@ -1,3 +1,63 @@
 .button {
-    background: blue;
+  padding: 12px 19px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: bold;
+  border: 1px solid;
+  transition: all 0.1618s;
+  cursor: pointer;
+}
+
+.button--icon-only {
+  padding: 12px;
+}
+
+.button--icon-only .button__icon {
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+}
+
+.button--round {
+  border-radius: 50%;
+}
+
+.button,
+.button--primary {
+  background-color: oklch(0.68 0.179 247);
+  border-color: oklch(0.68 0.179 247);
+  color: #000000;
+}
+
+.button:hover,
+.button--primary:hover {
+  background-color: #007acc;
+  border-color: #007acc;
+  color: #ffffff;
+}
+
+.button--secondary {
+  background-color: oklch(0.937 0.015 270);
+  border-color: oklch(0.937 0.015 270);
+  color: #000000;
+}
+
+.button--secondary:hover {
+  background-color: oklch(0.937 0.015 270);
+  border-color: oklch(0.937 0.015 270);
+  color: #000000;
+}
+
+.button--transparent {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+.button--transparent:hover {
+  background-color: oklch(0.269 0.042 263);
+  border-color: oklch(0.269 0.042 263);
+  color: #ffffff;
 }

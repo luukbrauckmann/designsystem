@@ -1,0 +1,33 @@
+.input-text {
+    border: 1px solid #415A77;
+    background: transparent;
+    padding: 12px 19px;
+    border-radius: 0px;
+}
+
+.input-text:hover {
+    border: 1px solid #009EFF;
+}
+
+.input-text:focus-visible {
+    border: 1px solid #FFD166;
+    background: #FFD166;
+    color: black;
+    outline: 1px dashed #009EFF;
+}
+
+.input-text::placeholder {
+    color: #415A77;
+}
+
+.input-text--error {
+    border: 1px solid #FF5B58;
+}
+
+.input-text--warn {
+    border: 1px solid #FFB741;
+}
+
+.input-text--success {
+    border: 1px solid #1FA47C;
+}
